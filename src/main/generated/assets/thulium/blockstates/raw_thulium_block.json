@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "thulium:block/raw_thulium_block"
+    }
+  }
+}
