@@ -30,10 +30,11 @@ public class ModBlocks {
 
     // NATURAL BLOCKS ABOVE
 
+
+    // DEV BLOCKS BELOW
+
     public static final Block DEV_BLOCK2 = registerBlockWithoutBlockItem("dev_block2",
             new Block(FabricBlockSettings.copyOf(Blocks.BEDROCK)));
-    // DEV BLOCKS ABOVE
-
 
     private static Block registerBlockWithoutBlockItem(String name, Block block) {
         return Registry.register(Registries.BLOCK, new Identifier(Thulium.MOD_ID, name), block);

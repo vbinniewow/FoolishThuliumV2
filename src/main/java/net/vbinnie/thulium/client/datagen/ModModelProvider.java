@@ -27,10 +27,5 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.RAW_THULIUM, Models.GENERATED);
         itemModelGenerator.register(ModItems.THULIUM_INGOT, Models.GENERATED);
-
-        itemModelGenerator.register(ModItems.ASBESTOS, Models.GENERATED);
-        itemModelGenerator.register(ModItems.CANCEROUS_SUBSTANCE, Models.GENERATED);
-        itemModelGenerator.register(ModItems.CANCEROUS_FLESH, Models.GENERATED);
-        itemModelGenerator.register(ModItems.CANCEROUS_BONE, Models.GENERATED);
     }
 }

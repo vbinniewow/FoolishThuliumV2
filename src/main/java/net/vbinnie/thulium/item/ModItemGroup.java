@@ -17,10 +17,7 @@ public class ModItemGroup {
                     .icon(() -> new ItemStack(ModItems.THULIUM_INGOT)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RAW_THULIUM);
                         entries.add(ModItems.THULIUM_INGOT);
-                        entries.add(ModItems.ASBESTOS);
-                        entries.add(ModItems.CANCEROUS_FLESH);
-                        entries.add(ModItems.CANCEROUS_BONE);
-                        entries.add(ModItems.CANCEROUS_SUBSTANCE);
+
 
                         //
 

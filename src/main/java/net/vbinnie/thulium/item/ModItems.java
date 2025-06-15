@@ -18,15 +18,6 @@ public class ModItems {
             new Item(new FabricItemSettings()));
 
 
-    public static final Item ASBESTOS = registerItem("asbestos",
-            new Item(new FabricItemSettings()));
-    public static final Item CANCEROUS_SUBSTANCE = registerItem("cancerous_substance",
-            new Item(new FabricItemSettings()));
-    public static final Item CANCEROUS_BONE = registerItem("cancerous_bone",
-            new Item(new FabricItemSettings()));
-    public static final Item CANCEROUS_FLESH = registerItem("cancerous_flesh",
-            new Item(new FabricItemSettings()));
-
 
 
     private static Item registerItem(String name, Item item) {
