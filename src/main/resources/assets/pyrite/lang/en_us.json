@@ -1,0 +1,33 @@
+{
+  "item.pyrite.cancerous_substance": "Cancerous Substance",
+  "item.pyrite.cancerous_flesh": "Cancerous Flesh",
+  "item.pyrite.cancerous_bone": "Cancerous Bone",
+  "item.pyrite.asbestos": "Asbestos",
+
+  "item.pyrite.pyrite_ingot": "Fool's Gold",
+  "item.pyrite.raw_pyrite": "Raw Pyrite",
+
+  "sounds.pyrite.spiritual_presence": "A spiritual presence is detected",
+
+  "block.pyrite.tree_spirit": "Cherry Tree Spirit",
+
+  "block.pyrite.pyrite_block": "Block of Fool's Gold",
+  "block.pyrite.raw_pyrite_block": "Block of Raw Pyrite",
+  "block.pyrite.pyrite_ore": "Pyrite Ore",
+  "item.pyrite.cancerous_rodent_spawn_egg": "Cancerous Rodent Spawn Egg",
+  "item.pyrite.hamster_spawn_egg": "Rodent Spawn Egg",
+
+  "effect.pyrite.radioactive": "Radioactive",
+  "effect.pyrite.cancerimmunity": "The Cure (To Cancer)",
+  "itemgroup.pyrite.pyrite_group": "Pyrite",
+
+
+  "death.attack.cancerdamage": "%1$s died from cancer",
+
+  "death.attack.cancerdamage.player": "%1$s died from cancer",
+
+  "effect.pyrite.cancer": "Cancer",
+
+  "entity.pyrite.hamster": "Rodent",
+  "entity.pyrite.cancerous_rodent": "Cancerous Rodent"
+}

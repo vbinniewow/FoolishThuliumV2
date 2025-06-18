@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "pyrite:block/raw_pyrite_block"
+    }
+  }
+}

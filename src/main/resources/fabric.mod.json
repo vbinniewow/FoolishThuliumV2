@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "thulium",
+  "id": "pyrite",
   "version": "${version}",
-  "name": "Foolish Thulium",
-  "accessWidener" : "thulium.accesswidener",
+  "name": "Pyrite",
+  "accessWidener" : "pyrite.accesswidener",
   "description": "",
   "authors": [],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/thulium/icon.png",
+  "icon": "assets/pyrite/icon.png",
   "environment": "*",
   "entrypoints": {
     "fabric-datagen": [
-      "net.vbinnie.thulium.client.ThuliumDataGenerator"
+      "net.vbinnie.pyrite.client.PyriteDataGenerator"
     ],
     "client": [
-      "net.vbinnie.thulium.client.ThuliumClient"
+      "net.vbinnie.pyrite.client.PyriteClient"
     ],
     "main": [
-      "net.vbinnie.thulium.Thulium"
+      "net.vbinnie.pyrite.Pyrite"
     ]
   },
   "mixins": [
-    "thulium.mixins.json"
+    "pyrite.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",

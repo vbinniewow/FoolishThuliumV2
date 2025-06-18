@@ -1,0 +1,14 @@
+// 1.20.1	2025-06-17T17:54:38.5420544	Pyrite/Model Definitions
+887a518df7700557bbb1b47d6761aba222d3d62d assets\pyrite\models\block\dev_block2.json
+25a65104e21e1d8755478c57134a5501557f43af assets\pyrite\models\item\raw_pyrite_block.json
+63130437143c64793a3b9c9a920068f2bdf4f63f assets\pyrite\models\item\pyrite_block.json
+bdd0d279d47b65bb4940ad6bda75d5b399d234f1 assets\pyrite\models\item\pyrite_ingot.json
+32aaccfad9552bdaf32509c52cbe2fc0e30cee7e assets\pyrite\models\block\raw_pyrite_block.json
+fd0ee4513526f484cecf320b13dad2e72d69a649 assets\pyrite\blockstates\pyrite_block.json
+61888f48c1dd2462f357526b016af241ac6b84f8 assets\pyrite\blockstates\raw_pyrite_block.json
+0ae9fdf84b9c1c2bfb0d422a94c85f2aacded9e5 assets\pyrite\models\block\pyrite_ore.json
+aed26556b482543fc56c92eb9c0c2019cd46f608 assets\pyrite\models\block\pyrite_block.json
+6c6768b65c9d6f5b134c12dcb44f3dc910714468 assets\pyrite\blockstates\pyrite_ore.json
+a53ef6de8a90711b59581b9769ba78901694aef6 assets\pyrite\blockstates\dev_block2.json
+92c3ae756a0a4af512b4a99b301b5ee9ca77fb63 assets\pyrite\models\item\raw_pyrite.json
+73b8404492cf032efc681e61034df54dcb114a3a assets\pyrite\models\item\pyrite_ore.json
