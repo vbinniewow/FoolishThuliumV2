@@ -12,7 +12,7 @@ import net.vbinnie.pyrite.Pyrite;
 
 public class ModDamageTypes {
 
-    public static final RegistryKey<DamageType> CANCERDAMAGE = RegistryKey.of(RegistryKeys.DAMAGE_TYPE, Identifier.of(Pyrite.MOD_ID, "cancerdamage"));
+    public static final RegistryKey<DamageType> GOLDPOISONING = RegistryKey.of(RegistryKeys.DAMAGE_TYPE, Identifier.of(Pyrite.MOD_ID, "goldpoisoning"));
 
     public static DamageSource of(World world, RegistryKey<DamageType> key) {
         return new DamageSource(world.getRegistryManager().get(RegistryKeys.DAMAGE_TYPE).entryOf(key));

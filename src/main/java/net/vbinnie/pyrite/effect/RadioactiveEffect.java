@@ -25,19 +25,19 @@ public class RadioactiveEffect extends StatusEffect {
             LivingEntity closest = world.getClosestEntity(
                     LivingEntity.class,
                     TargetPredicate.DEFAULT, // or null
-                    entity, // Entity to exclude
+                    entity, // exclusion
                     entity.getX(), entity.getY(), entity.getZ(),
                     box
             );
-            if (entity.getType() == ModEntities.CANCEROUS_RODENT) {
-                if (closest!=null) {
-                    closest.addStatusEffect(new StatusEffectInstance(ModEffects.CANCER.value(), 400));
-                    for (StatusEffectInstance effect : entity.getStatusEffects()) {
-
-                        closest.addStatusEffect(effect);
-                    }
-                }
-            } else
+//            if (entity.getType() == ModEntities.CANCEROUS_RODENT) {
+//                if (closest!=null) {
+//                    closest.addStatusEffect(new StatusEffectInstance(ModEffects.GOLDPOISONING.value(), 400));
+//                    for (StatusEffectInstance effect : entity.getStatusEffects()) {
+//
+//                        closest.addStatusEffect(effect);
+//                    }
+//                }
+//            } else
             if (closest!=null) {
 
                 if (entity.getStatusEffects() != null) {
@@ -46,6 +46,7 @@ public class RadioactiveEffect extends StatusEffect {
 
                         closest.addStatusEffect(effect);
                     }
+
                 }
             }
 

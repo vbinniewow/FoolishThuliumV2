@@ -6,8 +6,8 @@ import net.minecraft.entity.effect.StatusEffectCategory;
 import net.minecraft.world.World;
 import net.vbinnie.pyrite.damage_type.ModDamageTypes;
 
-public class CancerEffect extends StatusEffect {
-    public CancerEffect(StatusEffectCategory category, int color) {
+public class GoldPoisoningEffect extends StatusEffect {
+    public GoldPoisoningEffect(StatusEffectCategory category, int color) {
         super(category, color);
     }
 
@@ -17,12 +17,8 @@ public class CancerEffect extends StatusEffect {
 
 
             if (!world.isClient() && entity.age % 100 == 0) {
-                if(entity.hasStatusEffect(ModEffects.CANCERIMMUNITY.value())) {
-                entity.removeStatusEffect(ModEffects.CANCER.value());
-                }
-                 else {
-                    entity.damage(ModDamageTypes.of(world, ModDamageTypes.CANCERDAMAGE), 2.0f * amplifier + 1);
-                }
+                    entity.damage(ModDamageTypes.of(world, ModDamageTypes.GOLDPOISONING), 2.0f * amplifier + 1);
+
             }
         }
 

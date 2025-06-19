@@ -99,16 +99,16 @@ public class HamsterEntity extends TameableEntity {
 
 
 
-                    CancerousRodentEntity transformed = new CancerousRodentEntity(ModEntities.CANCEROUS_RODENT, this.getWorld());
-
-                    transformed.refreshPositionAndAngles(this.getX(), this.getY(), this.getZ(), this.getYaw(), this.getPitch());
-
-                    transformed.setHealth(this.getHealth());
-
-                    this.getWorld().spawnEntity(transformed);
-
-                    this.getWorld().playSound(this.getX(), this.getY(), this.getZ(), SoundEvents.ENTITY_ZOMBIE_CONVERTED_TO_DROWNED, SoundCategory.AMBIENT, 10, 1, true);
-                    this.discard();
+//                    CancerousRodentEntity transformed = new CancerousRodentEntity(ModEntities.CANCEROUS_RODENT, this.getWorld());
+//
+//                    transformed.refreshPositionAndAngles(this.getX(), this.getY(), this.getZ(), this.getYaw(), this.getPitch());
+//
+//                    transformed.setHealth(this.getHealth());
+//
+//                    this.getWorld().spawnEntity(transformed);
+//
+//                    this.getWorld().playSound(this.getX(), this.getY(), this.getZ(), SoundEvents.ENTITY_ZOMBIE_CONVERTED_TO_DROWNED, SoundCategory.AMBIENT, 10, 1, true);
+//                    this.discard();
 
             }
         }
@@ -180,7 +180,7 @@ public class HamsterEntity extends TameableEntity {
 
 
     private void applyCureToCancerRealNotFake() {
-        addStatusEffect(new StatusEffectInstance(ModEffects.CANCERIMMUNITY.value(), 9999, 0, false, false));
+//        addStatusEffect(new StatusEffectInstance(ModEffects.CANCERIMMUNITY.value(), 9999, 0, false, false));
     }
 
 

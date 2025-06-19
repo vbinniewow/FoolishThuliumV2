@@ -10,16 +10,14 @@ import net.minecraft.util.Identifier;
 import net.vbinnie.pyrite.Pyrite;
 
 public class ModEffects {
-    public static final RegistryEntry<StatusEffect> CANCER = registerStatusEffect("cancer",
-            new CancerEffect(StatusEffectCategory.HARMFUL, 0x3ac02a));
+    public static final RegistryEntry<StatusEffect> GOLDPOISONING = registerStatusEffect("cancer",
+            new GoldPoisoningEffect(StatusEffectCategory.HARMFUL, 0x3ac02a));
 
 
 
     public static final RegistryEntry<StatusEffect> RADIOACTIVE = registerStatusEffect("radioactive",
             new RadioactiveEffect(StatusEffectCategory.HARMFUL, 0x49eb36));
 
-    public static final RegistryEntry<StatusEffect> CANCERIMMUNITY = registerStatusEffect("cancerimmunity",
-            new CancerImmunityEffect(StatusEffectCategory.BENEFICIAL, 0x00ff1b));
 
 
     private static RegistryEntry<StatusEffect> registerStatusEffect(String name, StatusEffect statusEffect) {

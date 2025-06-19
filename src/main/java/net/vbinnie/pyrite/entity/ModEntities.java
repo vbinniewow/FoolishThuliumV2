@@ -8,15 +8,9 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.vbinnie.pyrite.Pyrite;
-import net.vbinnie.pyrite.entity.custom.CancerousRodentEntity;
 import net.vbinnie.pyrite.entity.custom.HamsterEntity;
 
 public class ModEntities {
-    public static final EntityType<net.vbinnie.pyrite.entity.custom.CancerousRodentEntity> CANCEROUS_RODENT = Registry.register(Registries.ENTITY_TYPE,
-            Identifier.of(Pyrite.MOD_ID, "cancerous_rodent"),
-            FabricEntityTypeBuilder.create(SpawnGroup.MONSTER, CancerousRodentEntity::new)
-                    .dimensions(EntityDimensions.fixed(0.5f, 0.5f)).build());
-
 
 
 

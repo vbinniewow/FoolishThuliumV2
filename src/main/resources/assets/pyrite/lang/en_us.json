@@ -17,16 +17,16 @@
   "item.pyrite.cancerous_rodent_spawn_egg": "Cancerous Rodent Spawn Egg",
   "item.pyrite.hamster_spawn_egg": "Rodent Spawn Egg",
 
-  "effect.pyrite.radioactive": "Radioactive",
-  "effect.pyrite.cancerimmunity": "The Cure (To Cancer)",
+  "effect.pyrite.radioactive": "Contagious",
+
   "itemgroup.pyrite.pyrite_group": "Pyrite",
 
 
-  "death.attack.cancerdamage": "%1$s died from cancer",
+  "death.attack.goldpoisoning": "%1$s died from Gold Poisoning",
 
-  "death.attack.cancerdamage.player": "%1$s died from cancer",
+  "death.attack.goldpoisoning.player": "%1$s died from Gold Poisoning",
 
-  "effect.pyrite.cancer": "Cancer",
+  "effect.pyrite.goldpoisoning_effect": "Gold Poisoning",
 
   "entity.pyrite.hamster": "Rodent",
   "entity.pyrite.cancerous_rodent": "Cancerous Rodent"

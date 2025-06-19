@@ -44,6 +44,7 @@ public class TreeSpiritBlock extends BlockWithEntity implements BlockEntityProvi
     @Override
     public void neighborUpdate(BlockState state, World world, BlockPos pos, Block block, BlockPos fromPos, boolean notify) {
         world.updateComparators(pos, this);
+
         super.neighborUpdate(state, world, pos, block, fromPos, notify);
     }
 
@@ -83,10 +84,10 @@ public class TreeSpiritBlock extends BlockWithEntity implements BlockEntityProvi
     public void scheduledTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
         BlockEntity be = world.getBlockEntity(pos);
         if (be instanceof TreeSpiritBlockEntity sensor) {
-
+            world.updateNeighbors(pos, this);
             sensor.checkForPlayers(world, this, pos);
             world.updateListeners(pos, state, state, 3);
-            world.scheduleBlockTick(pos, this, 10); // Check every 10 ticks
+            world.scheduleBlockTick(pos, this, 10);
         }
     }
 }

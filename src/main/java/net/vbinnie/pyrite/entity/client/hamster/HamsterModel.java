@@ -9,7 +9,7 @@ import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.MathHelper;
 import net.vbinnie.pyrite.Pyrite;
-import net.vbinnie.pyrite.entity.client.cancerous_rodent.CancerousRodentAnimations;
+
 import net.vbinnie.pyrite.entity.custom.HamsterEntity;
 
 public class HamsterModel<T extends HamsterEntity> extends SinglePartEntityModel<T> {
@@ -56,8 +56,8 @@ public class HamsterModel<T extends HamsterEntity> extends SinglePartEntityModel
         this.getPart().traverse().forEach(ModelPart::resetTransform);
         this.setHeadAngles(netHeadYaw, headPitch);
 
-        this.animateMovement(CancerousRodentAnimations.walk, limbSwing, limbSwingAmount, 2f, 2.5f);
-        this.updateAnimation(entity.idleAnimationState, CancerousRodentAnimations.idle, ageInTicks, 1f);
+        this.animateMovement(HamsterAnimations.walk, limbSwing, limbSwingAmount, 2f, 2.5f);
+        this.updateAnimation(entity.idleAnimationState, HamsterAnimations.idle, ageInTicks, 1f);
     }
 
     private void setHeadAngles(float headYaw, float headPitch) {
